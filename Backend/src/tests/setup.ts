@@ -1,0 +1,3 @@
+afterAll(() => {
+    console.log('global');
+});
