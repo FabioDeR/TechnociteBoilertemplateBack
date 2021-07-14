@@ -42,4 +42,4 @@ export async function initApp() {
     return app;
 }
 
-initApp();
+// initApp();

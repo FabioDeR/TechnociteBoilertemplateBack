@@ -2,9 +2,10 @@ import { createConnection } from 'typeorm';
 
 /*----Class initialize database----*/
 class Database {
-    static initDatabase() {
+    static async initDatabase() {
         try {
-            const connection = createConnection();
+            const connection = await createConnection();
+            // console.log(connection);
             return connection;
         } catch (e) {
             console.log(e);
