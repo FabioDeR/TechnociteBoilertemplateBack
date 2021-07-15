@@ -5,7 +5,7 @@
 
 ## Usage
 ````
-npx degit https://github.com/TRIPTYK/TPK-TS-NODE-BOILERPLATE projectName
+npx degit https://github.com/FabioDeR/TechnociteBoilertemplateBack.git
 ```
 ````
 ## installation Package 
